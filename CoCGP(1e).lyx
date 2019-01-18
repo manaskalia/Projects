@@ -1673,21 +1673,27 @@ d) 18 m
 
 \begin_layout Quote
 { Hint : For displacement calculations, between 0 - to 4 , area of the positive
- trapesium = (4+2)X4 = 24
+ trapesium = 
+\begin_inset Formula $\dfrac{1}{2}\times\left(2+4\right)\times4$
+\end_inset
+
+ = 12
 \end_layout
 
 \begin_layout Quote
-between 4 - to 8, area of negative trapesium = (2+4)X(-2) = -12.
+between 4 - to 8, area of negative trapesium =
+\begin_inset Formula $\dfrac{1}{2}\times(2+4)\times(-2)$
+\end_inset
+
+ = -6.
 \end_layout
 
 \begin_layout Quote
-So , the answer is +12 , which is not in the options.
- 
+So , the answer is +6
 \end_layout
 
 \begin_layout Quote
-So , the anser is None of these.
- }
+So , a is the correct option.}
 \end_layout
 
 \begin_layout Subsubsection

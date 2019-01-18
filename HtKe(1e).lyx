@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -30,6 +30,8 @@ initials
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf2
 \output_sync 0
@@ -59,6 +61,7 @@ initials
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -71,7 +74,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle default
@@ -439,6 +445,7 @@ s it has a displacement of 60 m.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.hk-phy.org"
+literal "true"
 
 \end_inset
 
@@ -542,6 +549,7 @@ status open
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.physport.org"
+literal "true"
 
 \end_inset
 
@@ -560,6 +568,7 @@ A velocity-time graph shows the velocities of a moving object at different
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.hk-phy.org"
+literal "true"
 
 \end_inset
 
@@ -837,6 +846,7 @@ status open
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.physport.org"
+literal "true"
 
 \end_inset
 
@@ -897,6 +907,7 @@ g at non-uniform speed
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.miniphysics.com"
+literal "true"
 
 \end_inset
 
@@ -916,6 +927,7 @@ The details are similar as distance-time graphs, except that the distance
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.miniphysics.com"
+literal "true"
 
 \end_inset
 
@@ -981,6 +993,7 @@ Area under graph is the change in velocity
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.miniphysics.com"
+literal "true"
 
 \end_inset
 
@@ -1028,6 +1041,7 @@ status open
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.sparknotes.com"
+literal "true"
 
 \end_inset
 
@@ -1039,6 +1053,7 @@ Self-Test Questions
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.miniphysics.com"
+literal "true"
 
 \end_inset
 
@@ -1130,6 +1145,7 @@ ract realm of kinematic equations.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.sparknotes.com"
+literal "true"
 
 \end_inset
 
@@ -1185,6 +1201,7 @@ Position vs.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.sparknotes.com"
+literal "true"
 
 \end_inset
 
@@ -1345,6 +1362,7 @@ This is all well and good, but how do you calculate the velocity of a curved
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.sparknotes.com"
+literal "true"
 
 \end_inset
 
@@ -1502,6 +1520,7 @@ The minus sign tells us that acceleration is in the leftward direction,
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.sparknotes.com"
+literal "true"
 
 \end_inset
 
@@ -1634,6 +1653,7 @@ In other words, at t = 5, the ant is in the same place as it was at t =
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.sparknotes.com"
+literal "true"
 
 \end_inset
 
@@ -1714,6 +1734,7 @@ n.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.sparknotes.com"
+literal "true"
 
 \end_inset
 
@@ -1740,6 +1761,7 @@ Acceleration vs.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.sparknotes.com"
+literal "true"
 
 \end_inset
 
@@ -1870,6 +1892,7 @@ Example
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.hk-phy.org"
+literal "true"
 
 \end_inset
 
@@ -1938,6 +1961,7 @@ Example
 \begin_inset CommandInset citation
 LatexCommand cite
 key "intmath.com"
+literal "true"
 
 \end_inset
 
@@ -2037,6 +2061,7 @@ Example
 \begin_inset CommandInset citation
 LatexCommand cite
 key "intmath.com"
+literal "true"
 
 \end_inset
 
@@ -2266,6 +2291,7 @@ Example
 \begin_inset CommandInset citation
 LatexCommand cite
 key "intmath.com"
+literal "true"
 
 \end_inset
 
@@ -3406,6 +3432,7 @@ me graph shown here.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.uwgb.edu"
+literal "true"
 
 \end_inset
 
@@ -6408,6 +6435,7 @@ Example
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.hk-phy.org"
+literal "true"
 
 \end_inset
 
@@ -6499,6 +6527,7 @@ Example
 \begin_inset CommandInset citation
 LatexCommand cite
 key "www.hk-phy.org"
+literal "true"
 
 \end_inset
 
@@ -7246,21 +7275,27 @@ d) 18 m
 
 \begin_layout Quote
 { Hint : For displacement calculations, between 0 - to 4 , area of the positive
- trapesium = (4+2)X4 = 24
+ trapesium = 
+\begin_inset Formula $\dfrac{1}{2}\times\left(2+4\right)\times4$
+\end_inset
+
+ = 12
 \end_layout
 
 \begin_layout Quote
-between 4 - to 8, area of negative trapesium = (2+4)X(-2) = -12.
+between 4 - to 8, area of negative trapesium =
+\begin_inset Formula $\dfrac{1}{2}\times(2+4)\times(-2)$
+\end_inset
+
+ = -6.
 \end_layout
 
 \begin_layout Quote
-So , the answer is +12 , which is not in the options.
- 
+So , the answer is +6
 \end_layout
 
 \begin_layout Quote
-So , the anser is None of these.
- }
+So , a is the correct option.}
 \end_layout
 
 \begin_layout Standard
@@ -7269,137 +7304,6 @@ status open
 
 \begin_layout Plain Layout
 Example 5
-\end_layout
-
-\end_inset
-
- : A body moves as described by the following v-t graph.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Box Doublebox
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "72col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename Images/CC/P-Graphs/4.1e/Images/Kinematics/kinematics5-g.jpg
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-a) Describe the motion.
-\end_layout
-
-\begin_layout Standard
-b) What is the distance travelled during the motion?
-\end_layout
-
-\begin_layout Standard
-c) What is the average speed for the motion?
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Strong
-status open
-
-\begin_layout Plain Layout
-Solution 
-\end_layout
-
-\end_inset
-
-: a) From t=0 to 2, the acceleration was 
-\begin_inset Formula ${\displaystyle a=\frac{\Delta v}{\Delta t}=\frac{3}{2}=1.5\ \text{ms}^{-2}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-From t=2 to 5, the acceleration was 0 ms
-\begin_inset Formula $^{−1}$
-\end_inset
-
- .
-\end_layout
-
-\begin_layout Standard
-The body was neither speeding up nor slowing down.
-\end_layout
-
-\begin_layout Standard
-From t=5 to 8, the acceleration was 
-\begin_inset Formula ${\displaystyle a=\frac{\Delta v}{\Delta t}=\frac{-3}{3}=-1\ \text{ms}^{-2}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The body was slowing down, so the acceleration was negative.
-\end_layout
-
-\begin_layout Standard
-b) The distance travelled is the area of the trapezoid (trapezium).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula ${\displaystyle \text{distance}=\frac{\left(a+b\right)h}{2}=\frac{\left(8+3\right)\left(3\right)}{2}=16.5\ \text{m}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-c) 
-\begin_inset Formula ${\displaystyle \text{average speed}=\frac{\text{distance travelled}}{\text{time taken}}}$
-\end_inset
-
- 
-\begin_inset Formula ${\displaystyle =\frac{16.5}{8}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-=2.1 ms
-\begin_inset Formula $^{−1}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Strong
-status open
-
-\begin_layout Plain Layout
-Example 6
 \end_layout
 
 \end_inset
@@ -7949,8 +7853,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Images/CC/P-Graphs/4.1e/Images/KinematicsClassicalApproach/ImagesReduced/Q3-secondequation.jpg
-	scale 50
+	filename Images/CC/P-Graphs/Common/Original/ClassicalApproach/acc-t-graph-3.jpg
+	scale 70
 
 \end_inset
 
@@ -8038,8 +7942,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Images/CC/P-Graphs/4.1e/Images/KinematicsClassicalApproach/ImagesReduced/Q4-secondequation.jpg
-	scale 50
+	filename Images/CC/P-Graphs/Common/Original/ClassicalApproach/ncertproblem.jpg
+	scale 70
 
 \end_inset
 
@@ -8112,8 +8016,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Images/CC/P-Graphs/4.1e/Images/KinematicsClassicalApproach/ImagesReduced/Q5-secondequation.jpg
-	scale 50
+	filename Images/CC/P-Graphs/Common/Original/ClassicalApproach/Untitled2.jpg
+	scale 70
 
 \end_inset
 
@@ -8263,8 +8167,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Images/CC/P-Graphs/4.1e/Images/KinematicsClassicalApproach/ImagesReduced/Q1-accelerationposition.jpg
-	scale 50
+	filename Images/CC/P-Graphs/Common/Original/ClassicalApproach/accelerationposition1.jpg
+	scale 70
 
 \end_inset
 
@@ -8351,8 +8255,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Images/CC/P-Graphs/4.1e/Images/KinematicsClassicalApproach/ImagesReduced/Q2-accelerationposition.jpg
-	scale 50
+	filename Images/CC/P-Graphs/Common/Original/ClassicalApproach/acclnvsdisplacement.jpg
+	scale 70
 
 \end_inset
 
@@ -8466,8 +8370,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Images/CC/P-Graphs/4.1e/Images/KinematicsClassicalApproach/ImagesReduced/Q1-signaccxt.jpg
-	scale 50
+	filename Images/CC/P-Graphs/Common/Original/ClassicalApproach/signofacclnfromxt.jpg
+	scale 70
 
 \end_inset
 
@@ -14891,6 +14795,8 @@ Substituting in x,
 \begin_inset CommandInset index_print
 LatexCommand printindex
 type "idx"
+name "Index"
+literal "true"
 
 \end_inset
 
